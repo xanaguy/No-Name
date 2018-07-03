@@ -1,0 +1,21 @@
+{
+	"name": "Nude Sydney",
+	"author": "FishTaco",
+	"description": "Whenever you join a public game or a cheater joins your game, this will slow down cheaters game to super slow-mo. Driving him mad.",
+	"contact" : "http://steamcommunity.com/id/zo0mer170/",
+	"version" : "1.9",
+	"updates" : 
+	[
+		{
+			"revision" : 10,
+			"identifier" : "STC"
+		}
+	],
+	"hooks": 
+	[
+			{"hook_id": "lib/managers/menumanager","script_path": "stc.lua"},
+			{"hook_id": "lib/managers/gameplaycentralmanager","script_path": "stc.lua"},
+			{"hook_id": "lib/network/base/basenetworksession","script_path": "stc.lua"},
+			{"hook_id": "lib/network/base/networkpeer","script_path": "stc.lua"}
+	]
+}

@@ -1,0 +1,13 @@
+Mod by FishTaco
+--------------- 1.9 ---------------
+Fixed to work with the 100th update.
+Disabled pd2stats until it gets fixed.
+--------------- 1.8 ---------------
+Fixed so now the cheaters that get tagged by the ingame anti cheat won't be able to evade the punishment.
+--------------- 1.7 ---------------
+Fixed so the keybind doesn't work in the chat.
+Fixed so it doesn't crash if you use toggle in the main menu.
+--------------- 1.6 ---------------
+Added mod options menu.
+Made settings toggleable: (Skill cheats, pd2stats, pd2stats "Not enough heists" and ingame anti cheat).
+Added toggle button to turn off the mod at once (In game it will toggle the time speed for cheaters). Turning it back on it will rescan everyone and apply slow mo to the cheaters.

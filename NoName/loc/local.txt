@@ -1,0 +1,19 @@
+{
+	"stop_the_cheater_menu_entry" : "Stop The Cheater",
+	"stop_the_cheater_menu_desc" : "Tool for cheater punishment"
+	"stc_toggle_entry" : "Toggle"
+	"stc_toggle_desc" : "With this you can turn off the mod on the fly"
+	"stc_pd2stats_entry" : "Pd2Stats"
+	"stc_pd2stats_desc" : "Use Pd2Stats to lookup a player"
+	"stc_pd2stats_extra_entry" : "Pd2Stats Extra"
+	"stc_dp2stats_extra_desc" : "Use the Not enough heists completed filter"
+	"stc_skill_entry" : "Skill points"
+	"stc_skill_desc" : "Punish for using too many skill points"
+	"stc_ingame_entry" : "Built in anti-cheat"
+	"stc_ingame_desc" : "Punish cheaters that gets tagged by the ingame anti-cheat"
+	"stc_message" : "is a filthy cheater. Don't worry he will leave quite soon"
+	"stc_on" : "Turned on"
+	"stc_off" : "Turned off"
+	"stc_restore" : "Turned off. Everything is back to normal"
+	"stc_recheck" : "Turned on. Scanning players"
+}

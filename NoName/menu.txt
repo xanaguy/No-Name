@@ -1,0 +1,52 @@
+{
+	"menu_id" : "stop_the_cheater_menu",
+	"parent_menu_id" : "lua_mod_options_menu",
+	"title" : "stop_the_cheater_menu_entry",
+	"description" : "stop_the_cheater_menu_desc",
+	"items" : [
+		{
+			"type" : "keybind",
+			"id" : "stop_the_cheater_toggle",
+			"title" : "stc_toggle_entry",
+			"description" : "stc_toggle_desc",
+			"keybind_id" : "stc_toggle_id",
+			"func" : "Toggle",
+		},
+		{
+			"type" : "toggle",
+			"id" : "stop_the_cheater_pd2stats",
+			"title" : "stc_pd2stats_entry",
+			"description" : "stc_pd2stats_desc",
+			"callback" : "STC_Pd2Stat_callback",
+			"value" : "Pd2Stat",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "stop_the_cheater_extra_pd2stats",
+			"title" : "stc_pd2stats_extra_entry",
+			"description" : "stc_dp2stats_extra_desc",
+			"callback" : "STC_Pd2Stat_extra_callback",
+			"value" : "Pd2Stat_extra",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "stop_the_cheater_skill",
+			"title" : "stc_skill_entry",
+			"description" : "stc_skill_desc",
+			"callback" : "STC_Skill_callback",
+			"value" : "Skill",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "stop_the_cheater_ingame",
+			"title" : "stc_ingame_entry",
+			"description" : "stc_ingame_desc",
+			"callback" : "STC_Ingame_callback",
+			"value" : "Ingame",
+			"default_value" : true,
+		}
+	]
+}
